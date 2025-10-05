@@ -1,4 +1,4 @@
- House Price Prediction (India)
+ 🏡 House Price Prediction (India)
 
 Predict house prices in India instantly using a Machine Learning model** via an **interactive Streamlit app. Enter house details and get an estimated price in real time!  
 
@@ -7,11 +7,11 @@ Try the live app here:[🔗 Streamlit App](https://housepriceprediction-hznrntiw
 ---
 Features
 
-- Predicts price based on **bedrooms, bathrooms, living area, condition, and grade**  
+- Predicts price based on " bedrooms, bathrooms, living area, condition, and grade" 
 - Interactive Streamlit app** for instant predictions  
-- Random Forest Regressor** trained with **hyperparameter tuning** for accurate results  
-- Cross-platform model loading** using `cloudpickle`  
-- Clean and simple **UI for easy user interaction**
+- Random Forest Regressor** trained with "hyperparameter tuning" for accurate results  
+- Cross-platform model loading" using `cloudpickle`  
+- Clean and simple "UI for easy user interaction"
 
 ---
 
@@ -61,5 +61,6 @@ GitHub: [🔗Arcinth Siva](https://github.com/arcinth)
 ---
 License
 This project is open-source and free to use under the MIT License.
+
 
 
