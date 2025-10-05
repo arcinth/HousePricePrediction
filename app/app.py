@@ -1,8 +1,22 @@
 import streamlit as st
 import joblib
 import numpy as np
+import cloudpickle
+import os
 
-model = joblib.load("models/Housemodel.pkl")
+
+model_path = os.path.join(os.path.dirname(__file__), "../models/HPmodel.pkl")
+
+# Verify file exists
+if not os.path.exists(model_path):
+    raise FileNotFoundError(f"Model file not found at {model_path}")
+
+# Load the model
+with open(model_path, "rb") as f:
+    model = cloudpickle.load(f)
+
+print("Model loaded successfully!")
+
 
 st.set_page_config(page_title="🏠 House Price Prediction", page_icon="💰", layout="centered")
 
