@@ -56,9 +56,10 @@ Author
 
 Arcinth Siva
 
-GitHub: arcinth
+GitHub: [🔗Arcinth Siva](https://github.com/arcinth)
 
 ---
 License
 This project is open-source and free to use under the MIT License.
+
 
