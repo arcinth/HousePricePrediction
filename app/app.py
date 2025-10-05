@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("HPmodel.pkl")
+model = joblib.load("models\HPmodel.pkl")
 
 st.set_page_config(page_title="🏠 House Price Prediction", page_icon="💰", layout="centered")
 
